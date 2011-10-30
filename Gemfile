@@ -36,3 +36,14 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+# To use test for my asktop project
+group :test, :development do
+    gem 'rspec-rails'
+end
+
+group :test do
+    gem 'cucumber-rails'
+    gem 'capybara'
+    gem 'database_cleaner'
+end
